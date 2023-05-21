@@ -1,1 +1,1 @@
-Basic stuff and idea of javascript
+Basic stuff and ideas of javascript
