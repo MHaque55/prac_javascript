@@ -1,6 +1,5 @@
  //First javascript code
-let person = "Navid"
-,   age = 25
-,   school = "UMD"
-
-console.log("Name of the person " + person + "\n" + "His age is " + age)
+let admin, name;
+name = "John";
+admin = name
+alert(admin)
