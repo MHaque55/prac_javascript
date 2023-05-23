@@ -1,5 +1,6 @@
  //First javascript code
-let admin, name;
-name = "John";
-admin = name
-alert(admin)
+
+let our_panet = "Earth";
+
+currentVisitor = prompt("Enter your name please", '');
+alert(`So our hero ${currentVisitor} visiting ${our_panet}`);
