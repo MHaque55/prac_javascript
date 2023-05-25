@@ -1,6 +1,7 @@
-let num = prompt("Enter a number greater than 100", '');
-while(num <= 100 && num != "") {
-    num = prompt("Did not work, enter a number greater than 100", '');
-}
+let n;
 
-alert(`Contratz, the number is ${num}`);
+//n = 10;
+
+for (let i = 2; i <= 10; i++) {
+    console.log(i);
+}
