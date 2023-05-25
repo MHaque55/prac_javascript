@@ -1,9 +1,21 @@
-function sumOfArray(arr) {
-    let sum = 0;
-    for(let i = 0; i < arr.length; i++) {
-        sum += arr[i];
+function permutations(str) {
+    let str2 = '';
+    if (str.length == 0) {
+        return str
     }
-    return sum
+
+    for (let i = 0; i < str.length; i++) {
+        if (i % 2 == 0) {
+            str2 += str[i].toUpperCase();
+        }
+        else {
+            str2 += str[i].toLowerCase();
+        }
+    }
+    return str2;
 }
 
-console.log(sumOfArray([2,4,5]));
+console.log(permutations("navid"));
+console.log(permutations("Yo12Llllo"));
+console.log(permutations(""));
+console.log(permutations("hELLO123"));
