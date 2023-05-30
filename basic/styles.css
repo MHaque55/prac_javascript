@@ -14,3 +14,11 @@ h1{
     font-family: sans-serif;
     
 }
+.social.header{
+    text-align: center;
+    font-size: large;
+}
+.social.cont{
+    display: contents;
+    text-align: center;
+}
