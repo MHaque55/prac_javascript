@@ -1,17 +1,16 @@
 .box1{
     background-color: yellow;
-    border: 2px solid red;
+    border: 20px solid red;
     padding: 10px;
+    text-align: center;
     margin: 50px;
     height: 100px;
     width: 100px;
-    
-
 }
 
 .box2{
     background-color: rgb(173, 219, 173);
     border: 2px solid blue;
     padding: 20px;
-    margin: 20px;
+    margin: 50px;
 }
